@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>WaDaNa</title>
+  <meta name="author" content="fengchenyi">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+  <meta property="og:site_name" content="WaDaNa"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="WaDaNa" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+
+</head>
+
+
+<body>
+  <header id="header" class="inner"><div class="alignleft">
+  <h1><a href="/">WaDaNa</a></h1>
+  <h2><a href="/"></a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li><a href="/archives">Archives</a></li>
+    
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper">
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-08-06T13:56:42.000Z"><a href="/2016/08/06/welcome-to-machine/">2016-08-06</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2016/08/06/welcome-to-machine/">welcome to machine</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h2 id="Hello_World"><a href="#Hello_World" class="headerlink" title="Hello World"></a>Hello World</h2><p>断断续续终于有时间把Person of Interest最终季第5季看完了。第一次知道POI是在豆瓣搜索House of Cards中的Doug Stamper，觉得他的演技很棒，并且他出演了POI。由于在wd有许多时间看剧，就试着看了起来，自此一发不可收拾。那段时间正好一直在看关于cv的papper，特别神奇的是那些还处于襁褓中的算法和技术，在POI中完美的实现了，也许是cv结合deep learning，编剧在POI中想象出了一种利用各种电子设备监视和监听这个世界的AI，称为machine，它被美国政府用于预防恐怖活动。但是这个AI不仅能发现恐怖活动，同时也会发现即将发生危险的普通人，这些信息被政府当作无关信息而忽略了，于是，AI的研发者宅总雇佣了李叔开始在纽约扮演黑暗骑士，每集基本都会就拯救一个普通人作为支线，同时，结合回忆与铺垫发展主线剧情。POI的背景乐十分到位和出彩，以爵士蓝调为主。剧情跌宕，角色塑造也很成功。最喜欢root姐姐与反派elias。mark剧中几个经典场景（不分先后）：</p>
+<ul>
+<li>李叔在机场与前女友道别，响起了背景乐Live with me</li>
+<li>elias炸死了自己的老爸，响起了背景乐 Ne me quitte pas</li>
+<li>安东尼去帮派火拼现成捡钱包，响起了背景乐Feeling good</li>
+<li>宅总在学校讲解π，π包含了无限的可能性，就像我们的人生</li>
+<li>之前一直喜欢的一首Roads，在smaritan雇佣一个小姑娘后播出</li>
+<li>卡特的追悼会上，播出了背景乐Hurt</li>
+<li>machine与宅总第一次道别时，响起了背景乐welcome to machine</li>
+</ul>
+<p>每个码农都幻想过自己写出具有智能的程序，如同每个石匠都幻想过建造巴别塔。第五季结尾machine回忆了自己为了预测人的行为，而深入的探索了人性，人的生命十分短暂，那生命的意义又是什么呢？ Everyone dies alone.But if you mean something to someone,if you helped someone,or loved someone.If even a single person remembers you,Then maybe you never really die.And maybe this isn’t the end at all.也许我们生命根本没有意义。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-03-21T07:43:09.000Z"><a href="/2016/03/21/马氏距离/">2016-03-21</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2016/03/21/马氏距离/">马氏距离</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p><strong>马氏距离衡量了两个服从同一分布并且其协方差矩阵为Σ的随机变量x,y的差异程度。</strong></p>
+<hr>
+<ol>
+<li><p>马氏距离中的协方差矩阵是作为各个“属性”或者“分量”之间相互关系的系数存在的。 如果认为的设定Σ，则对角元代表了X的分量的权重，非对角元代表了分量之间的联系。通过调整Σ，我们可以调整相似度的度量方式。</p>
+</li>
+<li><p>马氏距离的计算是建立在总体样本的基础上的，这一点可以从协方差矩阵的解释中可以得出，也就是说，如果拿同样的两个样本，放入两个不同的总体中，最后计算得出的两个样本间的马氏距离通常是不相同的，除非这两个总体的协方差矩阵碰巧相同。</p>
+</li>
+<li><p>在计算马氏距离过程中，要求总体样本数大于样本的维数，否则得到的总体样本协方差矩阵逆矩阵不存在，这种情况下，用欧式距离来代替马氏距离，也可以理解为，如果样本数小于样本的维数，这种情况下求其中两个样本的距离，采用欧式距离计算即可。</p>
+</li>
+<li><p>还有一种情况，满足了条件总体样本数大于样本的维数，但是协方差矩阵不能求逆。比如A（3，4），B（5，6）；C（7，8），这种情况是因为这三个样本在其所处的二维空间平面内共线。</p>
+</li>
+<li><p>在实际应用中“总体样本数大于样本的维数”这个条件是很容易满足的，而所有样本点出现3）中所描述的情况是很少出现的，所以在绝大多数情况下，马氏距离是可以顺利计算的，但是马氏距离的计算是不稳定的，不稳定的来源是协方差矩阵，这也是马氏距离与欧式距离的最大差异之处。</p>
+</li>
+<li><p>欧氏距离的缺点是，它将样本的不同属性（即各指标或各变量）之间的差别等同看待，这一点有时不能满足实际要求。马氏距离不受量纲的影响，两点之间的马氏距离与原始数据的测量单位无关；由标准化数据和中心化数据(即原始数据与均值之差）计算出的二点之间的马氏距离相同。马氏距离还可以排除变量之间的相关性的干扰。它的缺点是夸大了变化微小的变量的作用。</p>
+</li>
+</ol>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-01-28T12:46:10.000Z"><a href="/2016/01/28/其疾如风/">2016-01-28</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2016/01/28/其疾如风/">其疾如风</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h2 id="u5BD2_u5047_u8BA1_u5212"><a href="#u5BD2_u5047_u8BA1_u5212" class="headerlink" title="寒假计划"></a>寒假计划</h2><blockquote>
+<ul>
+<li>学习英语</li>
+<li>学习C++</li>
+<li>学习Java</li>
+<li>完成毕业论文</li>
+</ul>
+</blockquote>
+<p>真希望有无限的时间可以虚度和浪费，可以看书，看剧，听音乐。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2015-11-14T03:47:51.000Z"><a href="/2015/11/14/反人类罪/">2015-11-14</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2015/11/14/反人类罪/">反人类罪</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>今天法国巴黎被绿教恐怖袭击，造成了大量民众伤亡。通过恐怖活动刷存在感的宗教是邪教，人类的毒瘤，必须毫不留情的铲除。但是许多人对绿教还抱有幻想，认为他们是和平的宗教，只是一小部分人在制造恐怖却影响了整个穆斯林。绿教所继承并维护的教义十分恐怖，只要不信他们的神就能被屠杀。虽然每个人都有宗教信仰的自由，但是当你的宗教妨害到了他人的生命，这种宗教就是邪教。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2015-11-09T15:35:35.000Z"><a href="/2015/11/09/关于时间/">2015-11-09</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2015/11/09/关于时间/">关于时间</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>回家已经一周了，各项工作进展缓慢，晚上睡的太晚，早上起的太晚。好的效率还是需要规律的生活。其实回家后也没怎么娱乐，看了三部电影：《彗星来的那一夜》，《The Company》，《超人与蝙蝠侠 公众之敌》，还看了两三集动画。《彗星》的感觉有些像《恐怖游轮》，不过成本小了许多。同时恐怖游轮是单线循环，彗星是同时的多线循环。有一天在研究Hexo中渡过，同时感谢Github，于是我可以自由的写博客了……</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+  <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2015-11-06T07:45:33.000Z"><a href="/2015/11/06/fcy/">2015-11-06</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2015/11/06/fcy/">fcy</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p> この世界のことを好きなんだと思う</p>
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+
+
+<nav id="pagination">
+  
+  
+  <div class="clearfix"></div>
+</nav></div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜尋">
+    <input type="hidden" name="q" value="site:yoursite.com">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">分類</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/随笔/">随笔</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+
+  
+<div class="widget tag">
+  <h3 class="title">標籤</h3>
+  <ul class="entry">
+  
+    <li><a href="/tags/idea/">idea</a><small>1</small></li>
+  
+  </ul>
+</div>
+
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><div class="alignleft">
+  
+  &copy; 2016 fengchenyi
+  
+</div>
+<div class="clearfix"></div></footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+</body>
+</html>
